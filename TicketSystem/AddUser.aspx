@@ -6,7 +6,7 @@
 <head runat="server">
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/font-awesome.css" rel="stylesheet" />
-    <title></title>
+    <title>Agregar Usuario</title>
 </head>
 <body>
     <form id="form1" runat="server">
