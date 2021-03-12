@@ -34,7 +34,10 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <asp:Button ID="btnLogin" CssClass="form-control  btn btn-success" runat="server" Text="Iniciar Sesión" />
+                            <asp:Button ID="btnLogin" CssClass="form-control  btn btn-success" runat="server" Text="Iniciar Sesión" OnClick="btnLogin_Click" />
+                        </div>
+                        <div class="col-md-12">
+                            <asp:Label ID="lblMensaje" runat="server"  CssClass="form-control"></asp:Label>
                         </div>
                      </div>
                 </div>
