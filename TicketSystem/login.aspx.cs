@@ -15,7 +15,7 @@ namespace TicketSystem
 {
     public partial class login : System.Web.UI.Page
     {
-        string _Cadena = ConfigurationManager.ConnectionStrings["TSystemConnectionString"].ToString();
+        string Cadena = ConfigurationManager.ConnectionStrings["TSystemConnectionString"].ToString();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,7 +27,7 @@ namespace TicketSystem
             DataSet ds = new DataSet();
 
 
-            using (SqlDataAdapter da = new SqlDataAdapter("CheckUser", _Cadena))
+            using (SqlDataAdapter da = new SqlDataAdapter("CheckUser", Cadena))
             {
                 da.SelectCommand.CommandType = CommandType.StoredProcedure;
 
@@ -58,7 +58,9 @@ namespace TicketSystem
 
             else
             {
-                lblMensaje.Text = "Usuario no exixte o los datos son erroneos";
+                lblMensaje.Visible = true;
+
+                lblMensaje.Text = "Usuario no existe o los datos son erroneos";
             }
         }
     }

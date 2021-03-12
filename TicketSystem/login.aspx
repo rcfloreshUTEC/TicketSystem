@@ -34,10 +34,10 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <asp:Button ID="btnLogin" CssClass="form-control  btn btn-success" runat="server" Text="Iniciar Sesión" OnClick="btnLogin_Click" />
+                            <asp:Button ID="btnLogin" CssClass="form-control  btn btn-success" runat="server" Text="Iniciar Sesión" Font-Bold="True" OnClick="btnLogin_Click" />
                         </div>
                         <div class="col-md-12">
-                            <asp:Label ID="lblMensaje" runat="server"  CssClass="form-control"></asp:Label>
+                            <asp:Label ID="lblMensaje" runat="server"  CssClass="form-control" BackColor="#CC0000" Font-Bold="True" ForeColor="White" Visible="False"></asp:Label>
                         </div>
                      </div>
                 </div>
