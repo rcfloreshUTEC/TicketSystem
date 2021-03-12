@@ -11,7 +11,7 @@ namespace TicketSystem
 {
 
 
-    public partial class WebForm1
+    public partial class menu
     {
 
         /// <summary>
@@ -24,48 +24,30 @@ namespace TicketSystem
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblNombreCat control.
+        /// btnCategoria control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNombreCat;
+        protected global::System.Web.UI.WebControls.Button btnCategoria;
 
         /// <summary>
-        /// txtNombreCat control.
+        /// btnNuevoUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombreCat;
+        protected global::System.Web.UI.WebControls.Button btnNuevoUsuario;
 
         /// <summary>
-        /// btnInsertarCat control.
+        /// btnNuevoTicket control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnInsertarCat;
-
-        /// <summary>
-        /// lblMensaje control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMensaje;
-
-        /// <summary>
-        /// dgvCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvCategory;
+        protected global::System.Web.UI.WebControls.Button btnNuevoTicket;
     }
 }
